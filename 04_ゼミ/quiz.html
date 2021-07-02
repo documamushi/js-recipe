@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>僕の趣味はなんでしょう？</h1>
+    <button id="soccer">サッカー</button>
+    <button id="dance">ダンス</button>
+    <button id="cook">料理</button>
+    <div id="display"></div>
+
+    <script>
+      const soccer = document.getElementById("soccer")
+      const dance = document.getElementById("dance")
+      const cook = document.getElementById("cook")
+      const display = document.getElementById("display")
+
+      soccer.onclick = function() {
+        display.textContent = "サッカー楽しー！！！"
+      }
+      dance.onclick = function() {
+        display.textContent = "ダンス楽しー！！！"
+      }
+      cook.onclick = function() {
+        display.textContent = "料理楽しー！！！"
+      }
+    </script>
+  </body>
+</html>
