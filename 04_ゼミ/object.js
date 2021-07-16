@@ -5,7 +5,7 @@
     university: "横浜国立大学",
     hobby: ["soccer", "dance"],
     sayHallo: function() {
-      alert("こんにちはドクマムシです")
+      alert("こんにちはヒカキンです")
     },
     family: {
       papa: "yuzi",
